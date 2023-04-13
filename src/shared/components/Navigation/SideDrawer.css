@@ -1,0 +1,25 @@
+.side-drawer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 4;
+  height: 100vh;
+  width: 100%;
+  background: #3AAFA9;
+}
+
+.navigation-drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  background-color: #9dcecc;
+  transition: height 0.6s ease-out;
+}
+
+.navigation-drawer.open {
+  height: 100vh;
+}
